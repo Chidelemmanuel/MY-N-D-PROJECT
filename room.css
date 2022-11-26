@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F1ED;
+    padding: 11px;
+    font-weight: bolder;
+    gap: 400px;
+    height: 13vh;
+    z-index: 5;
+}
+
+.logo > img {
+    width: 100px;
+    padding-top: 10px;
+}
+
+.list {
+    display: flex;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: bolder;
+    color: #1C1D21; 
+}
+
+.book {
+    color: #fff;
+    background-color: #CBA044;
+    padding: 10px 25px;
+}
+
+nav ul li:hover {
+    color: #CBA044;
+    border-bottom: 5px solid #980000;
+}
+
+.book:hover {
+    color: #1C1D21;
+    border: 2px solid #CBA044;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+body nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F6F1ED;
+}
+
+.head {
+    display: flex;
+    color: #CBA044;
+    margin: 140px 100px;
+    text-align: center;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    gap: 20px;
+    margin-bottom: 90px;
+}
+
+.image > img {
+    width: 650px;
+    height: 320px;
+}
+
+.second {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    left: -150px;
+}
+
+h2 {
+    margin: 20px 5px;
+    color: #CBA044;
+}
+
+section {
+    background-color: #F6F1ED;
+    margin: auto;
+    margin-top: -10px;
+    width: 95%;
+    height: 2px;
+    margin-bottom: 5px;
+}
+
+.second p {
+    color: #707070;
+    font-weight: bolder;
+    margin: 3px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    margin-top: 25px;
+}
+
+.last a {
+    color: #fff;
+    background-color: #CBA044;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hotel-price {
+    color: #CBA044;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1C1D21;
+    padding: 40px;
+    gap: 650px;
+}
+
+.hotel-logo > img {
+    width: 100px;
+    height: auto;
+}
+
+.link {
+    display: flex;
+}
+
+.link > img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.link > img:hover {
+    color: #CBA044;
+}
