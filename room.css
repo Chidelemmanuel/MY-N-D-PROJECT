@@ -97,6 +97,8 @@ body nav {
     display: flex;
     background-color: #fff;
     flex-direction: column;
+    width: 40vw;
+    /* height: 40vh; */
     padding: 20px;
     position: relative;
     left: -150px;
@@ -161,12 +163,13 @@ footer {
     display: flex;
 }
 
-.link > img {
-    width: 30px;
-    height: 30px;
+.link a {
+    font-size: 45px;
     margin: 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
-.link > img:hover {
+.link a:hover {
     color: #CBA044;
 }

@@ -8,6 +8,8 @@ body {
     font-family: sans-serif;
     padding: 0;
     margin: 0;
+    /* font-family: 'Noto Sans Georgian'; */
+    /* font-family: 'Poppins'; */
 }
 
 .coast {
@@ -74,13 +76,31 @@ nav ul li:hover, nav ul li:active {
     width: 100%;
 }
 
-
-.image > img {
-    width: 100vw;
+.home-screen {
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: -5;
 }
 
-.home-screen {
-    z-index: -5;
+.image {
+    display: flex;
+    width: 100%;
+    animation: slide 10s infinite linear;
+}
+
+.image > img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    30% { transform: translateX(-100%); }
+    50% { transform: translateX(-100%); }
+    55% { transform: translateX(-200%); }
+    75% { transform: translateX(-200%); }
+    80% { transform: translateX(-300%); }
+    100% { transform: translateX(-300%); }
 }
 
 h1 {
@@ -88,11 +108,12 @@ h1 {
     top: 190px;
     left: 100px;
     z-index: -1;
+    font-family: "Georgia";
 }
 
 h1 p {
-    font-size: 59px;
-    color: #980000;
+    font-size: 69px;
+    color: #fff;
 }
 
 .container {
@@ -315,7 +336,7 @@ form {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .picture {
@@ -325,15 +346,8 @@ form {
 }
 
 .about-image > img{
-    width: 350px;
+    width: 700px;
     height: 400px;
-}
-
-.about-image-2 > img {
-    z-index: 1;
-    width: 300px;
-    height: 390px;
-    padding-top: 50px;
 }
 
 .about-us {
@@ -341,16 +355,18 @@ form {
     flex-direction: column;
     justify-content: center;
     font-family: 'Tahoma';
-    padding: 50px;
+    padding: 35px;
 }
 
 h2 {
     color: #CBA044;
-    margin: 40px 0px;
+    margin-top: -8px;
     font-size: 39px;
+    margin-bottom: 30px;
 }
 
 .about-us p {
+    font-size: 22px;
     letter-spacing: 1.2px;
 }
 
@@ -364,7 +380,7 @@ button {
     padding: 15px 20px;
     border-radius: 30px;
     transition: .4s;
-    margin-top: 20px;
+    margin-top: 58px;
     width: 50%;
 }
 
@@ -389,8 +405,8 @@ button:hover, button:active {
     background-color: #CBA044;
     width: 80%;
     height: 2px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #head-2 {
@@ -404,6 +420,10 @@ button:hover, button:active {
     display: flex;
     gap: 30px;
     margin: auto;
+}
+
+.image-1:hover {
+    color: #CBA044;
 }
 
 .image-1 > img {
@@ -434,14 +454,25 @@ button:hover, button:active {
 
 .third-pix {
     display: flex;
-    /* justify-content: space-between; */
     gap: 35px;
     margin: auto;
 }
 
 .image-3 > img {
-    width: 280px;
+    width: 380px;
     height: 350px;
+}
+
+.last-pix {
+    display: flex;
+    gap: 95px;
+    margin: auto;
+}
+
+.image-4 > img {
+    width: 300px;
+    height: 380px;
+    gap: 100px;
 }
  
 .third-container {
@@ -469,12 +500,13 @@ footer {
     display: flex;
 }
 
-.link > img {
-    width: 39px;
-    height: 29px;
+.link a {
+    font-size: 45px;
     margin: 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
-.link > img:hover {
+.link a:hover {
     color: #CBA044;
 }
