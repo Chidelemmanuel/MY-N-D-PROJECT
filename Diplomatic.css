@@ -46,9 +46,9 @@ nav ul li {
     padding: 10px 25px;
 }
 
-nav ul li:hover {
+nav ul li:hover, nav ul li:active {
     color: #CBA044;
-    border-bottom: 5px solid #980000;
+    border-bottom: 2px solid #CBA044;
 }
 
 .book:hover {
@@ -169,15 +169,17 @@ section {
 }
 
 .btn {
+    padding: 20px 65px;
+    text-align: center;
     color: #fff;
     background-color: #CBA044;
-    padding: 10px 65px;
     border: none;
     text-decoration: none;
     font-weight: bold;
     width: 250px;
     margin-top: 20px;
     margin-left: 101px;
+    font-size: 20px;
 }
 
 .btn:hover, #btn:active {
@@ -207,12 +209,13 @@ footer {
     display: flex;
 }
 
-.link > img {
-    width: 30px;
-    height: 30px;
+.link a {
+    font-size: 45px;
     margin: 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
-.link > img:hover {
+.link a:hover {
     color: #CBA044;
 }

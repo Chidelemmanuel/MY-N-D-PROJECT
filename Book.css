@@ -46,10 +46,11 @@ nav ul li {
     padding: 10px 25px;
 }
 
-nav ul li:hover {
+nav ul li:hover, nav ul li:active {
     color: #CBA044;
-    border-bottom: 5px solid #980000;
+    border-bottom: 2px solid #CBA044;
 }
+
 
 .book:hover {
     color: #1C1D21;
@@ -353,12 +354,13 @@ footer {
     display: flex;
 }
 
-.link > img {
-    width: 30px;
-    height: 30px;
+.link a {
+    font-size: 45px;
     margin: 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
-.link > img:hover {
+.link a:hover {
     color: #CBA044;
 }

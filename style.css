@@ -227,7 +227,6 @@ form {
 .box-1 {
     position: relative;  
     top: 50px;
-    /* left: 319px; */
     transform: translate(-50%, -50%);
     margin-left: 150px;
 }
