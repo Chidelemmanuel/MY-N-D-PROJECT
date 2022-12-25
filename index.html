@@ -12,25 +12,30 @@
     <title>Coast Hotel & Suites</title>
 </head>
 <body>
-    <!---coast-->
+    <!---coast--->
     <div class="coast">
 
         <!---nav-bar-->
         <nav>
+            <!-- <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a> -->
+
             <div class="logo">
                 <img src=".//Logos and Icons/Coast Hotel logo.png" alt="">
-            </div>
+            </div> 
 
             <div class="list">
                 <ul>
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="room.html"><li>Rooms</li></a>
-                    <a href="About.html"><li>About</li></a>
-                    <a href="#"><li>Contact</li></a>
-                    <a href="Book.html"><li class="book">Book Now</li></a>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="room.html">Rooms</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Book.html" id="book">Book Now</a></li>                
                 </ul>
             </div>
-          
         </nav>
 
         <!---home-screen-->
@@ -58,7 +63,7 @@
 
             <div class="details">
 
-                <div class="check">
+                <!-- <div class="check">
                     <span>
                         <label for="">Check-in-Date</label>
                         <input type="date" placeholder="Check-in-Date">
@@ -105,7 +110,7 @@
 
                         <a href="Book.html" id="btn">Book Now</a>
                     </div>    
-                </div>
+                </div> -->
             </div>
 
             <div class="line">
@@ -130,8 +135,10 @@
                         <p>Anambra State. we offer our corporate </p> 
                         <p> clients and walks in guests a perfect blend of </p>
                         <p> relaxaton, activities and African tradition.</p>
-    
-                        <button href="About.html">Read more</button>
+                        
+                        <a href="About.html" target="_blank">
+                            <button>Read more</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -200,7 +207,7 @@
             </div>
     
             <h2 id="head-2">Our Hotel Facilities</h2>
-            
+             
             <div class="third-container">
                 <div class="last-pix">
                     <div class="image-4">
@@ -260,16 +267,17 @@
             <div class="hotel-logo">
                 <img src=".//Logos and Icons/Coast Hotel  b.png" alt="Coast hotel logo">
             </div>
-    
-           
-        <div class="link">
-            <a href="https://www.facebook.com/youngozo.dopa"><i class="fab fa-facebook-f"></i></a>
+            
+            <div class="link">
+                <a href="https://www.facebook.com/youngozo.dopa"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://wa.me/+2349032766169"> <i class="fab fa-whatsapp"></i></a>
                 <a href="https://github.com/Chidelemmanuel"><i class="fa-brands fa-youtube" id="youtube"></i>
                 <a href="https://www.instagram.com/chidel_emmanuel"><i class="fab fa-instagram"></i></a> 
                 <a href="https://www.twitter.com/Ozochi Emmanuel"><i class="fab fa-twitter"></i></a>
-        </div>
+            </div>
         </footer>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

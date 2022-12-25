@@ -16,46 +16,53 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #F6F1ED;
-    padding: 11px;
+    padding: 5px;
     font-weight: bolder;
-    font-family: sans-serif;
-    gap: 400px;
-    height: 13vh;
+    gap: 250px;
+    height: 11vh;
+    width: 100%;
     z-index: 5;
 }
 
 .logo > img {
     width: 100px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
-.list {
+.list ul {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
     display: flex;
-    padding-top: 10px;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 10px;
-    font-weight: bolder;
-    color: #1C1D21; 
+.list li {
+    line-height: 40px;
+    margin: 15px;
+    list-style: none;
 }
 
-.book {
+.list li a {
+    color: #000;
+    display: inline;
+    text-decoration: none;
+}
+
+.list li a:hover, .list li a:active {
+    color: #CBA044;
+    border-bottom: 2px solid #CBA044;
+}
+
+#book {
     color: #fff;
     background-color: #CBA044;
     padding: 10px 25px;
 }
 
-nav ul li:hover, nav ul li:active {
-    color: #CBA044;
-    border-bottom: 2px solid #CBA044;
-}
-
-
-.book:hover {
+#book:hover {
     color: #1C1D21;
-    border: 2px solid #CBA044;
+    outline: 2px solid #CBA044;
+    border-bottom: none;
     background-color: transparent;
     cursor: pointer;
 }
@@ -77,34 +84,41 @@ body nav {
 
 .image > img {
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
+}
+
+h1 {
+    margin: 5px 100px;
+    color: #CBA044;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     padding: 20px;
 }
 
-h1 {
-    margin: 20px;
-    font-size: 59px;
-    text-align: center;
-    color: #CBA044;
+.line {
+    margin: 50px;
+    background-color: #CBA044;
+    width: 95%;
+    height: 2px;
+}
+
+h3 {
+    margin-left: 50px;
+    font-size: 29px;
+    color: #980000;
 }
 
 .text {
-    padding: 10px;
+    padding: 30px;
 }
 
 .text p {
-    font-size: 20px;
-}
-
-.text li {
-    font-size: 20px;
-    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 5px;
 }
 
 footer {
