@@ -376,7 +376,7 @@ h2 {
     padding: 10px;
 }
 
-.image > img {
+.image a > img {
     width: 100px;
     height: 40px;
 }
