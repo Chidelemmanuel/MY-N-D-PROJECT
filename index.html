@@ -64,70 +64,55 @@
             <div class="details"> 
 
                 <div class="check">
+
                     <span>
-                        <label for="">Check-in-Date</label>
+                        <label for="check-in">Check-In-Date</label>
                         <input type="date" placeholder="Check-in-Date">
                     </span>
-                   
+
                     <span>
-                        <label for="">Check-out-Date</label>
+                        <label for="check-out">Check-Out-Date</label>
                         <input type="date" placeholder="Check-out-Date">
                     </span>
 
                     <span>
-                        <p>Rooms</p>
-                    </span>
-
-                    <span>
-                        <p>Adults</p>
-                    </span>
-
-                    <span>
-                        <p>Children</p>
-                    </span>
-
-                    <!-- <div id="btn">
-                        Book Now
-                    </div> -->
-
-                    <a href="Book.html" id="btn"></a>
-
-                    <!-- <span class="box">
-                        <select name="format" id="format">
-                            <option selected disabled>ROOMS</option>
-                            <option value="Classic Superior Room">CLASSIC SUPERIOR ROOM</option>
-                            <option value="Atlantic Superior Room">ATLANTIC SUPERIOR ROOM</option>
-                            <option value="Classic Suites">CLASSIC SUITES</option>
-                            <option value="Diplomatic Suites">DIPLOMATIC SUITES</option>
-                            <option value="Presidential Suites">PRESIDENTIAL SUITES</option>
+                        <label for="room">Rooms</label>
+                        <select name="room" id="room" class="form-control">
+                            <option value="01">CLASSIC SUPERIOR ROOM</option>
+                            <option value="02">ATLANTIC SUPERIOR ROOM</option>
+                            <option value="03">CLASSIC SUITES</option>
+                            <option value="04">DIPLOMATIC SUITES</option>
+                            <option value="05">PRESIDENTIAL SUITES</option>
                         </select>
-                    </span> -->
+                    
+                    </span>
+                        
+                    <span>
+                        <label for="adults">Adult</label>
+                        <select name="adults" id="adults" class="form-control">
+                            <option value="01">MALE</option>
+                            <option value="02">FEMALE</option>
+                        </select>
+                    </span>
+
+                    <span>
+                        <label for="children">Children</label>
+                        <select name="children" id="children" class="form-control">
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="06">NIL</option>
+                        </select>
+                    </span>
+
+                    <span>
+                        <!-- <label for="book">Book Now</label> -->
+                        <a href="Book.html">Book Now</a>
+                    </span>
                 </div>
-
-                <!-- <div class="checked">
-                    <div class="boxes">
-                        <div class="box-1">
-                            <select name="dropdown">
-                                <option selected disabled>ADULTS</option>
-                                <option value="Male">MALE</option>
-                                <option value="Female">FEMALE</option>
-                            </select>
-                        </div>
-                         
-                        <div class="box-2">
-                            <select name="dropdown" id="">
-                                <option selected disabled>CHILDREN</option>
-                                <Option value="Nil">NIL</Option>
-                                <Option value="one">1</Option>
-                                <Option value="two">2</Option>
-                                <Option value="three">3</Option>
-                                <Option value="four">4</Option>
-                                <Option value="five">5</Option>
-                            </select>
-                        </div>
-
-                    </div>    
-                </div>  -->
             </div>
 
             <div class="line">
@@ -279,6 +264,67 @@
                 </div>
             </div>          
         </div>
+
+        <!-- <div class="hotel-search-form-area">
+            <div class="container-fluid">
+                <div class="hotel-search-form">
+                    <form action="#" method="post">
+                        <div class="row justify-content-between align-items-end">
+                             <div class="col-6 col-md-2 col-lg-3">
+                                <label for="checkIn">Check In</label>
+                                    <input type="date" class="form-control" id="checkIn" name="checkin-date">
+                            </div>
+
+                            <div class="col-6 col-md-2 col-lg-3">
+                                <label for="checkOut">Check Out</label>
+                                <input type="date" class="form-control" id="checkOut" name="checkout-date">
+                            </div>
+
+                        <div class="col-4 col-md-1">
+                            <label for="room">Room</label>
+                            <select name="room" id="room" class="form-control" style="display: none;">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                            </select>
+
+                            <div class="nice-select form-control" tabindex="0">
+                                <span class="current">01</span><ul class="list"><li data-value="01" class="option selected">01</li><li data-value="02" class="option">02</li><li data-value="03" class="option">03</li><li data-value="04" class="option">04</li><li data-value="05" class="option">05</li><li data-value="06" class="option">06</li></ul>
+                            </div>
+                        </div>
+            <div class="col-4 col-md-1">
+            <label for="adults">Adult</label>
+            <select name="adults" id="adults" class="form-control" style="display: none;">
+             <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            </select><div class="nice-select form-control" tabindex="0"><span class="current">01</span><ul class="list"><li data-value="01" class="option selected">01</li><li data-value="02" class="option">02</li><li data-value="03" class="option">03</li><li data-value="04" class="option">04</li><li data-value="05" class="option">05</li><li data-value="06" class="option">06</li></ul></div>
+            </div>
+            <div class="col-4 col-md-2 col-lg-1">
+            <label for="children">Children</label>
+            <select name="children" id="children" class="form-control" style="display: none;">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            </select><div class="nice-select form-control" tabindex="0"><span class="current">01</span><ul class="list"><li data-value="01" class="option selected">01</li><li data-value="02" class="option">02</li><li data-value="03" class="option">03</li><li data-value="04" class="option">04</li><li data-value="05" class="option">05</li><li data-value="06" class="option">06</li></ul></div>
+            </div>
+            <div class="col-12 col-md-3">
+            <button type="submit" class="form-control btn roberto-btn w-100">Check Availability</button>
+            </div>
+            </div>
+            </form>
+            </div>
+            </div>
+        </div> -->
 
         <footer>
             <!-- <div class="hold"> -->

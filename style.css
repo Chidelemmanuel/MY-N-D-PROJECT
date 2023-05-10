@@ -7,7 +7,7 @@
 }
 
 body {
-    /* font-family: "Poppins", Sans-serif; */
+    font-family: 'Poppins, sans-serif';
     padding: 0;
     margin: 0;
 }
@@ -47,7 +47,6 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    /* border: 2px solid #000; */
 }
 
 .list li {
@@ -114,7 +113,6 @@ nav {
 
 .image > img {
     width: 100%;
-    /* filter: grayscale(1) */
 }
 
 @keyframes slide {
@@ -152,15 +150,14 @@ h1 p {
 .details {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     background-color: #F6F1ED;
-    padding: 15px;
-    width: 95%;
-    /* height: 30vh; */
+    padding: 25px;
+    width: 85%;
     margin: auto;
     margin-top: -70px;
     margin-bottom: 40px;
     box-shadow: 2px 0.5px 2px 2px #707070;
+    border-radius: 5px;
 }
 
 .check {
@@ -171,184 +168,45 @@ h1 p {
 
 span {
     display: flex;
-    border: 2px solid #000;
-    padding: 10px 15px;
-    margin: 12px;
+    flex-direction: column;
+    padding: 10px 12px;
+    gap: 10px;
 }
 
-/* label {
-    position: relative;
-    top: -25px;
-    left: 125px;
-    font-weight: bolder;
-    font-size: 13px;
-} */
-/* 
 input {
-    width: 75%;
-    padding: 15px 20px;
+    width: 100%;
+    padding: 20px 40px;
     font-weight: bolder;
     border: 2px solid #CBA044;
-} */
-
-/* .box {
-    position: relative;
-    top: 27px;
-    left: 150px; 
-    transform: translate(-50%, -50%);
-    margin-left: 100px;
-}
-
-.box select {
-    font-weight: bold;
-    background: #CBA044;
     color: #980000;
-    padding: 10px;
-    width: 350px;
-    height: 50px;
-    border: none;
-    font-size: 20px;
-    box-shadow: 0 5px 25px rgba(0,0,0,.5);
-    -webkit-appearance: button;
-    outline: none;
 }
 
-.box:before{
-    content: '\25BC';
-    font-family: "Font Awesome 6 Free";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    color: #fff;
-    font-size: 28px;
-    background: #1C1D21;
-    pointer-events: none;
+#room {
+    width: 90%;
+    padding: 20px 25px;
+    font-weight: bolder;
+    border: 2px solid #CBA044;
+    color: #980000;
 }
 
-.box:hover::before {
-    background: #707070;
-}
-
-
-form {
-    margin: 0%;
-    padding: 0%;
-}
-
-.boxes {
-    display: flex;
-    margin: 2px auto;
-    position: relative;
+.form-control {
     width: 100%;
-}
-
-.checked {
-    display: flex;
-    justify-content: space-around;
-    font-weight: bold;
-}
-
-.box-1 {
-    position: relative;  
-    top: 50px;
-    transform: translate(-50%, -50%);
-    margin-left: 150px;
-}
-
-.box-1 select {
-    font-weight: bold;
-    background: #CBA044;
+    padding: 20px 7px;
+    font-weight: bolder;
+    border: 2px solid #CBA044;
     color: #980000;
-    padding: 10px;
-    width: 180px;
-    height: 50px;
-    border: none;
-    font-size: 20px;
-    box-shadow: 0 5px 25px rgba(0,0,0,.5);
-    -webkit-appearance: button;
-    outline: none;
+    background-color: #fff;
 }
 
-.box-1:before{
-    content: '\25BC';
-    font-family: "Font Awesome 6 Free";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    color: #fff;
-    font-size: 28px;
-    background: #1C1D21;
-    pointer-events: none;
-}
-
-.box-1:hover::before {
-    background: #707070;
-}
-
-.box-2 {
-    position: relative;
-    top: 50px;
-    /* left: 519px; */
-    /* transform: translate(-50%, -50%);
-    margin-left: 200px;
-}
-
-.box-2 select {
-    font-weight: bold;
-    background: #CBA044;
-    color: #980000;
-    padding: 10px;
-    width: 200px;
-    height: 50px;
-    border: none;
-    font-size: 20px;
-    box-shadow: 0 5px 25px rgba(0,0,0,.5);
-    -webkit-appearance: button;
-    outline: none;
-}
-
-.box-2:before{
-    content: '\25BC';
-    font-family: "Font Awesome 6 Free";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    color: #fff;
-    font-size: 28px;
-    background: #1C1D21;
-    pointer-events: none;
-}
-
-.box-2:hover::before {
-    background: #707070;
-} */
-
-#btn {
+span  a {
     color: #fff;
     background-color: #CBA044;
-    padding: 2px;
-    width: 73px;
-    border: none;
+    padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* margin-top: 10px; */
+    margin-top: 35px;
 }
 
-#btn:hover, #btn:active {
+span a:hover, span a:active {
     background-color: transparent;
     border: 2px solid #CBA044;
     color: #1C1D21;
