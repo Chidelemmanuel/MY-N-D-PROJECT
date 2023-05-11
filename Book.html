@@ -30,12 +30,25 @@
     <div class="backdrop"></div>
     <div class="modal">
 
-        <h3>Reservation Received</h3>
-            <img src=".//Logos and Icons/Swiss Hotel 1.png" alt="" id="verification">
+        <h1>Payment Method</h1>
+            <div class="images">
+                <div class="image">
+                    <img src=".//Logos and Icons/183873_credit card_plastic money_american express_american_express_icon.png" alt="">
+                </div>
+    
+                <div class="image">
+                    <img src=".//Logos and Icons/1156750_finance_mastercard_payment_icon.png" alt="">
+                </div>
+    
+                <div class="image">
+                    <img src=".//Logos and Icons/294654_visa_icon.png" alt="">
+                </div>
+            </div>
+            
+        <h3 class="modal_title">Do you want to continue Payment?</h3>
 
-        <h1 class="modal_title">Do you want to continue?</h1>
         <div class="modal_actions">
-            <a href="index.html" class="modal_action">Yes!</a>
+            <a href="https://dashboard.paystack.com/#/login" class="modal_action">Yes!</a>
             <a href="Book.html" class="modal_action">No!</a>
             <button class="modal__action modal__action--negative btn" type="button"></button>
         </div>
@@ -66,7 +79,7 @@
     
                 <div class="box-1">
                     <select name="dropdown">
-                        <option selected disabled>ADULTS</option>
+                        <option selected disabled>GENDER</option>
                         <option value="Male">MALE</option>
                         <option value="Female">FEMALE</option>
                     </select>
@@ -104,59 +117,10 @@
 
         </div>
 
-        <div class="line">
 
-        </div>
+  
 
-        <div class="third-container">
-            <h2>Payment Method</h2>
-
-            <div class="images">
-                <div class="image">
-                    <a href="https://dashboard.paystack.com/#/login">
-                        <img src=".//Logos and Icons/183873_credit card_plastic money_american express_american_express_icon.png" alt="">
-                    </a> 
-                </div>
-    
-                <div class="image">
-                    <a href="https://dashboard.paystack.com/#/login">
-                        <img src=".//Logos and Icons/1156750_finance_mastercard_payment_icon.png" alt="">
-                    </a>
-                </div>
-    
-                <div class="image">
-                    <a href="https://dashboard.paystack.com/#/login">
-                     <img src=".//Logos and Icons/294654_visa_icon.png" alt="">
-                    </a>
-                </div>
-            </div>
-
-            <div class="last">
-                <form action="">
-                    <input type="text" id="last" placeholder="Name on Card"> <br>
-                    <input type="text" id="last" placeholder="Card Number"> <br>
-                    <input type="text" id="last" placeholder="MM/YY">
-
-                </form>
-            </div>
-
-            <div class="check">
-                <span>
-                    <input type="checkbox">
-                    <p class="text">Notify me about special offers</p>
-                </span>
-
-                <span>
-                    <input type="checkbox">
-                    <p class="text">
-                        I have read and agree to the terms 
-                        and condition and Privacy Policy
-                    <p>
-                </span>
-            </div>
-
-            <button class="btn btnyyy">Book Now</button>
-        </div>
+        <button class="btn btnyyy">Book Now</button>
        
     </div>
 
