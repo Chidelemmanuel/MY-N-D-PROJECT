@@ -269,7 +269,7 @@ button {
     padding: 15px 20px;
     border-radius: 30px;
     transition: .4s;
-    margin-top: 58px;
+    margin-top: 38px;
     width: 50%;
 }
 
@@ -348,7 +348,7 @@ button:hover, button:active {
 }
 
 .image-3 > img {
-    width: 380px;
+    width: 360px;
     height: 350px;
 }
 
@@ -359,7 +359,7 @@ button:hover, button:active {
 }
 
 .image-4 > img {
-    width: 300px;
+    width: 318px;
     height: 380px;
     gap: 100px;
 }
