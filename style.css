@@ -38,8 +38,8 @@ nav {
 }
 
 .logo > img {
-    width: 150px;
-    height: 75px;
+    width: 100px;
+    margin-top: 15px;
 }
 
 .list ul {
@@ -62,19 +62,18 @@ nav {
 }
 
 .list li a:hover, .list li a:active {
-    color: #CBA044;
-    border-bottom: 2px solid #CBA044;
+    border-bottom: 2px solid lightseagreen;
 }
 
 #book {
     color: #fff;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     padding: 10px 25px;
 }
 
 #book:hover {
     color: #1C1D21;
-    outline: 2px solid #CBA044;
+    outline: 2px solid lightseagreen;
     border-bottom: none;
     background-color: transparent;
     cursor: pointer;
@@ -126,19 +125,6 @@ nav {
     100% { transform: translateX(-300%); }
 }
 
-h1 {
-    position: absolute;
-    top: 190px;
-    left: 100px;
-    z-index: -1;
-    font-family: "Georgia" sans-serif;
-}
-
-h1 p {
-    font-size: 69px;
-    color: #fff;
-}
-
 .container {
     display: flex;
     background-color: #F6F1ED;
@@ -177,45 +163,48 @@ input {
     width: 100%;
     padding: 20px 40px;
     font-weight: bolder;
-    border: 2px solid #CBA044;
-    color: #980000;
+    border: 2px solid lightseagreen;
+    color: #000;
+    border-radius: 5px;
 }
 
 #room {
-    width: 90%;
+    width: 100%;
     padding: 20px 25px;
     font-weight: bolder;
-    border: 2px solid #CBA044;
-    color: #980000;
+    border: 2px solid lightseagreen;
+    color: #000;
+    border-radius: 5px;
 }
 
 .form-control {
     width: 100%;
     padding: 20px 7px;
     font-weight: bolder;
-    border: 2px solid #CBA044;
-    color: #980000;
+    border: 2px solid lightseagreen;
+    color: #000;
     background-color: #fff;
+    border-radius: 5px;
 }
 
 span  a {
     color: #fff;
-    background-color: #CBA044;
-    padding: 10px 20px;
+    background-color: lightseagreen;
+    padding: 15px 60px;
     text-decoration: none;
     margin-top: 35px;
 }
 
 span a:hover, span a:active {
     background-color: transparent;
-    border: 2px solid #CBA044;
-    color: #1C1D21;
+    border: 2px solid lightseagreen;
+    color: #000;
     cursor: pointer;
 }
 
 .line {
     margin: auto;
-    background-color: #CBA044;
+    background-color: rgb(0, 0, 71);
     width: 80%;
     height: 2px;
     margin-bottom: 20px;
@@ -224,6 +213,7 @@ span a:hover, span a:active {
 .first-container {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     width: 100%;
     margin-top: 20px;
 }
@@ -248,7 +238,7 @@ span a:hover, span a:active {
 }
 
 h2 {
-    color: #CBA044;
+    color: lightseagreen;
     margin-top: -8px;
     font-size: 39px;
     margin-bottom: 30px;
@@ -262,14 +252,15 @@ h2 {
 button {
     border: none;
     text-align: center;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     color: #fff;
     text-decoration: none;
     font-weight: bolder;
     padding: 15px 20px;
     border-radius: 30px;
     transition: .4s;
-    margin-top: 58px;
+    margin-top: 28px;
+    margin-bottom: 50px;
     width: 50%;
 }
 
@@ -277,7 +268,7 @@ button:hover, button:active {
     background-color: transparent;
     cursor: pointer; 
     color: #1C1D21;
-    border: 2px solid #CBA044;
+    border: 2px solid lightseagreen;
     transform: scale(1.2)
 }
 
@@ -289,19 +280,10 @@ button:hover, button:active {
     flex-direction: column;
 }
 
-.line-2 {
-    margin: auto;
-    background-color: #CBA044;
-    width: 80%;
-    height: 2px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
 #head-2 {
     text-align: center;
     color: #CBA044;
-    color: #980000 !important;
+    color: #000 !important;
     margin-bottom: 20px;
 }
 
@@ -312,11 +294,11 @@ button:hover, button:active {
 }
 
 .image-1:hover {
-    color: #CBA044;
+    color: lightseagreen;
 }
 
 .image-1 > img {
-    width: 400px;
+    width: 430px;
     height: 350px;
 }
 
@@ -333,11 +315,11 @@ button:hover, button:active {
 
 .text:hover, .text:active {
     color: #1C1D21;
-    background-color: #CBA044;
+    background-color: lightseagreen;
 }
 
 .image-2 > img {
-    width: 730px;
+    width: 700px;
     height: 350px;
 }
 
@@ -348,8 +330,8 @@ button:hover, button:active {
 }
 
 .image-3 > img {
-    width: 380px;
-    height: 350px;
+    width: 360px;
+    height: 380px;
 }
 
 .last-pix {
@@ -380,7 +362,8 @@ footer {
 }
 
 .hotel-logo > img {
-    width: 200px;
+    width: 120px;
+    margin-top: 25px;
 }
 
 .link {
@@ -396,7 +379,7 @@ footer {
 }
 
 .link a:hover {
-    color: #CBA044;
+    color: lightseagreen;
 }
 
 @media (max-width: 375px) {

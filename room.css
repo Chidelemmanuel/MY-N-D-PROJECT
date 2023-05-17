@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,11 +8,12 @@
 
 body {
     flex-direction: column;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     padding: 0;
     margin: 0;
     background-color: #F6F1ED;
     width: 100%;
+    font-family: 'Poppins, sans-serif';
 }
 
 nav {
@@ -26,10 +29,8 @@ nav {
 }
 
 .logo > img {
-    width: 150px;
-    height: 75px;
-    /* width: 100px; */
-    /* padding-top: 5px; */
+    width: 100px;
+    margin-top: 15px;
 }
 
 .list ul {
@@ -52,19 +53,18 @@ nav {
 }
 
 .list li a:hover, .list li a:active {
-    color: #CBA044;
-    border-bottom: 2px solid #CBA044;
+    border-bottom: 2px solid lightseagreen;
 }
 
 #book {
     color: #fff;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     padding: 10px 25px;
 }
 
 #book:hover {
     color: #1C1D21;
-    outline: 2px solid #CBA044;
+    outline: 2px solid lightseagreen;
     border-bottom: none;
     background-color: transparent;
     cursor: pointer;
@@ -98,18 +98,19 @@ nav {
 
 .book {
     color: #fff;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     padding: 10px 25px;
+    text-decoration: none;
 }
 
 .book:hover {
     color: #707070;
     background-color: transparent;
-    border: 2px solid #CBA044;
+    border: 2px solid lightseagreen;
 }
 
 .hotel-price {
-    color: #CBA044;
+    color: lightseagreen;
 }
 
 .wrapper {
@@ -121,20 +122,18 @@ nav {
 
 .head {
     display: flex;
-    color: #CBA044;
+    color: lightseagreen;
     margin: 100px 80px;
     text-align: center;
 }
 
 .first-container {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-top: -70px;
     margin-bottom: 90px;
     position: relative;
     width: 100%;
-    /* flex-direction: column; */
 }
 
 .image {
@@ -161,13 +160,11 @@ nav {
     flex-direction: column;
     width: 70%;
     height: 20vh;
-    /* position: absolute; */
-    /* left: 570px; */
 }
 
 h2 {
     margin: 20px 5px;
-    color: #CBA044;
+    color: lightseagreen;
 }
 
 section {
@@ -194,9 +191,9 @@ span {
     margin-top: 25px;
 }
 
-.last a {
+.span a {
     color: #fff;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     border: none;
     text-decoration: none;
     font-weight: bold;
@@ -212,7 +209,8 @@ footer {
 }
 
 .hotel-logo > img {
-    width: 200px;
+    width: 120px;
+    margin-top: 25px;
 }
 
 .link {
@@ -228,7 +226,7 @@ footer {
 }
 
 .link a:hover {
-    color: #CBA044;
+    color: lightseagreen;
 }
 
 @media (max-width: 375px) {

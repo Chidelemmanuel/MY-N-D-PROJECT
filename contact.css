@@ -4,12 +4,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins, sans-serif';
 }
 
 .coast {
@@ -48,10 +49,8 @@ nav {
 }
 
 .logo > img {
-    width: 150px;
-    height: 75px;
-    /* width: 100px; */
-    /* padding-top: 5px; */
+    width: 100px;
+    margin-top: 15px;
 }
 
 .list ul {
@@ -74,19 +73,18 @@ nav {
 }
 
 .list li a:hover, .list li a:active {
-    color: #CBA044;
-    border-bottom: 2px solid #CBA044;
+    border-bottom: 2px solid lightseagreen;
 }
 
 #book {
     color: #fff;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     padding: 10px 25px;
 }
 
 #book:hover {
     color: #1C1D21;
-    outline: 2px solid #CBA044;
+    outline: 2px solid lightseagreen;
     border-bottom: none;
     background-color: transparent;
     cursor: pointer;
@@ -111,7 +109,7 @@ nav {
 }
 
 .contact i {
-    color: #CBA044;
+    color: lightseagreen;
     padding: 20px;
     font-size: 4rem;
 }  
@@ -141,7 +139,7 @@ button {
     border-radius: 3px;
     cursor: pointer;
     color: #fff;
-    background-color: #CBA044;
+    background-color: lightseagreen;
     border: none;
     font-weight: bolder;
     margin: 20px 0px;
@@ -151,7 +149,7 @@ button {
 button:hover {
     color: #1C1D21;
     background-color: transparent;
-    border: 2px solid #CBA044;
+    border: 2px solid lightseagreen;
 }
 
 button:active {
@@ -169,7 +167,8 @@ footer {
 }
 
 .hotel-logo > img {
-    width: 200px;
+    width: 120px;
+    margin-top: 25px;
 }
 
 .link {
@@ -185,7 +184,7 @@ footer {
 }
 
 .link a:hover {
-    color: #CBA044;
+    color: lightseagreen;
 }
 
 @media (max-width: 375px) {
